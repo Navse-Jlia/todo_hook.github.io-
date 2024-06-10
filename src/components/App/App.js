@@ -55,11 +55,13 @@ const App = () => {
   };
 
   const handleAddTask = (newTask, minutes, seconds) => {
+    const parsedMinutes = minutes === '' ? 0 : parseInt(minutes, 10);
+    const parsedSeconds = seconds === '' ? 0 : parseInt(seconds, 10);
     const createdTask = {
       ...newTask,
       id: Math.random().toString(36).substr(2, 9),
       createdAt: new Date(),
-      currentTime: parseInt(minutes, 10) * 60 + parseInt(seconds, 10),
+      currentTime: parsedMinutes * 60 + parsedSeconds,
       completed: false,
       editing: false,
       isRunning: false,

@@ -27,7 +27,7 @@ const Task = ({
   };
 
   const handlePauseTimer = () => {
-    pauseTimer();
+    pauseTimer(task.id);
   };
 
   const handleEdit = () => {
