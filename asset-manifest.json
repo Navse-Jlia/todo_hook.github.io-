@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todo_hooks.github.io-/static/css/main.66c61782.css",
+    "main.js": "/todo_hooks.github.io-/static/js/main.51a45ddf.js",
+    "index.html": "/todo_hooks.github.io-/index.html",
+    "main.66c61782.css.map": "/todo_hooks.github.io-/static/css/main.66c61782.css.map",
+    "main.51a45ddf.js.map": "/todo_hooks.github.io-/static/js/main.51a45ddf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66c61782.css",
+    "static/js/main.51a45ddf.js"
+  ]
+}
